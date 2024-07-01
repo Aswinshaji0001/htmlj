@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(45deg,purple,orange);
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 10px;
+}
