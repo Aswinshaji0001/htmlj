@@ -115,6 +115,7 @@ li{
     background-size: cover;
 }
 .cardy{
+    margin-right: 95px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -264,7 +265,7 @@ li{
 }
 ul{
     text-align: center;
-    margin-left: 600px
+    margin-left: 500px
 }
 .last{
     margin-top: 20px;
