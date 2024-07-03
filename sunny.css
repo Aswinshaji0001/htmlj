@@ -87,12 +87,13 @@ li{
 .lari{
     top: 50%;
     margin-top: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 250px;
 }
 .lar{
     margin-top: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 260px;
+    margin-left: 200px;
 }
 .card2{
     background-image: url(egg.jpeg);
@@ -134,7 +135,7 @@ li{
     width: 300px;
     height: 100px;
     position: absolute;
-    margin-left: 250px;
+    margin-left: 200px;
 }
 .parg{
     margin-top: 25px;
