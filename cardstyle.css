@@ -9,7 +9,7 @@
     align-items: center;
     display: flex;
     overflow-x: scroll;
-
+    scrollbar-width: none;
 }
 .cards{
     width: 14rem;
@@ -17,6 +17,7 @@
    box-shadow: 0 0 10px;
     margin: 20px;
     border-radius: 10px 10px 10px 10px;
+    transition: .5s;
 }
 .image{
     border-radius: 10px 10px 10px 10px;
@@ -29,16 +30,15 @@
     width: 14rem;
     height: 100%;
     object-fit: cover;
-    transition: .5s;
 }
 .content h1{
     color: white;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-::-webkit-scrollbar{
-    overflow: hidden;
-}
+::-webkit-scrollbar {
+    display: none;
+  }
 .cards:hover{
     scale: 1.2;
     background-color: darkorchid;
