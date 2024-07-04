@@ -28,11 +28,12 @@ ul{
     list-style: none;
 }
 li{
-    margin-right: 10px;
-    padding: 10px;
+    margin-right: 20x;
+    padding: 10px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
 }
 .cx{
+    margin-right: 20px;
     width: 50px;
     height: auto;
     background-color: aliceblue;
