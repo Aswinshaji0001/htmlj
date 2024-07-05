@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(45deg,purple,orange);
+    position: relative;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes anime {
+    0%{top: 0; left: 0px; background: linear-gradient(45deg,purple,orange)};
+    50%{top: 0; left: 900px; background: linear-gradient(45deg,purple,red)};
+    100%{top:0; left: 0; background: linear-gradient(45deg,purple,orange)};  
+}
